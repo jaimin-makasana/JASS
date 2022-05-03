@@ -1,0 +1,29 @@
+.n-logo-font {
+    font-family: 'verdana';
+    font-size: 30px;
+}
+
+.n-App-logo {
+    height: 40px;
+    width: 40px;
+    pointer-events: none;
+    margin-right: 10px;
+    background-color: white;
+}
+
+
+.App-header {
+    background-color: #474d5a;
+    min-height: 40px;
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.c-white {
+    color: white;
+}

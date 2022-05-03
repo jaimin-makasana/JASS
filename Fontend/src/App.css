@@ -1,0 +1,26 @@
+
+#app {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 'header'
+    'main'
+    'footer';
+}
+
+#app main {
+  grid-area: main;
+  overflow: auto;
+  background-color: #e9ecef;
+  display: block;
+  padding: var(--main-spacing);
+}
+
+#app header {
+  grid-area: header;
+}
+
+#app footer {
+  grid-area: footer;
+}

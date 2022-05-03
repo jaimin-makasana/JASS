@@ -1,0 +1,41 @@
+.d-main-bg-container{
+  background-color: #e9ecef;
+}
+.d-main-container{
+  min-width: 100%;
+  width: 100%;
+  display: contents;
+}
+.d-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: contents;
+  justify-content: center;
+  align-items: center;    
+}
+
+.d-container .d-card {
+  position: relative;
+  height: inherit;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fff;
+}
+.d-container .d-card .d-form {
+  width: 100%;
+  height: inherit;
+  display: grid;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;    
+}
+.d-hello {
+  text-align: center;
+  color: #2a2739;
+}
+.tlist button{
+  color: white!important;
+}

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.f-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(125deg, #5b6467, #485461);
+
+}
+
+.f-container .f-card {
+    height: 430px;
+    width: 800px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 10px
+}
+
+.f-container .f-card .f-form {
+    width: 100%;
+    height: 100%;
+    display: flex
+}
+
+.f-warning {
+    border: 1px solid red !important
+}
+
+.f-container .f-card .f-left-side {
+    width: 50%;
+    background-color: #000;
+    height: 100% !important;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden
+}
+
+.f-left-side img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+
+.f-container .f-card .f-right-side {
+    width: 50%;
+    background-color: #efecf2;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px
+}
+
+.f-main {
+    display: none
+}
+
+.f-hello {
+    margin-top: 40px;
+    text-align: center;
+    color: #2a2739;
+}
+
+.f-hello h4 {
+    margin-top: 5px
+}
+
+.f-input_text {
+    position: relative;
+}
+
+.f-input_text .input[type="text"] {
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: 0;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+.f-input_text .input[type="password"] {
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: 0;
+    padding: 0 10px;
+    font-size: 13px;
+    padding-right: 33px;
+}
+
+.f-input_text p {
+    margin-top: 4px;
+    font-size: 13px;
+    margin-left: 10px;
+    color: red
+}
+
+.f-danger {
+    color: "red"
+}
+
+.f-input_text p i {
+    margin-right: 2px
+}
+
+.fa-eye-slash {
+    position: absolute;
+    top: 15px;
+    right: 8px;
+    cursor: pointer;
+    color: #727286
+}
+
+.fa-eye {
+    position: absolute;
+    top: 15px;
+    right: 8px;
+    cursor: pointer;
+    color: #727286
+}
+
+.f-btn button {
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: 0;
+    background-color: #fe6b68;
+    border-radius: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 13px;
+    color: #FFFFFF
+}
+
+.f-btn button:hover {
+    background-color: #f1221e
+}
+
+.f-right-side hr {
+    margin-top: 0px;
+    color: #fff;
+    border: 0;
+    border-top: 1px solid #fff
+}
+
+.f-register p {
+    display: flex;
+    justify-content: end;
+    font-size: 13px;
+    font-weight: 600;
+    color: #2a2739
+}
+
+.f-register p span {
+    text-decoration: none;
+    color: blue;
+    margin-left: 3px
+}
+
+.line-text {
+    color: #2a2739
+}
+
+.line {
+    background-color: #6b6767;
+    width: 166px;
+    height: 3px
+}

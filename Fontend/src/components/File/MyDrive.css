@@ -1,0 +1,24 @@
+.pg-viewer-wrapper {
+    overflow-y: unset !important;
+}
+
+.photo-viewer-container {
+    width: 90% !important;
+    height: 90% !important;
+}
+
+.photo-viewer-container>img {
+    width: 90% !important;
+    height: 90% !important;
+}
+.versionTable td,
+.versionTable th {
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 8px;
+}
+
+.versionTable tr:nth-child(even) {
+    background-color: #dddddd;
+}
